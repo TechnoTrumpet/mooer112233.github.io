@@ -4,6 +4,7 @@ permalink: /blog/:year/:month/:day/:title
 collections:
 - authors:
 output: true
+permalink: /:collection/:name
 defaults:
   - scope:
       path: ""
